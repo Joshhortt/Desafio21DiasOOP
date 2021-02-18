@@ -1,4 +1,5 @@
-﻿using Alunos;
+﻿//02. Desafio 21 Dias de POO. Classes e Construtores
+using Alunos;
 using System;
 using System.Collections.Generic;
 
@@ -16,18 +17,18 @@ namespace Alunos
 			jose.Cpf = "096905463";
 
 			Pessoa wagner = new Pessoa();
-			wagner.Id = 2;                   // 
+			wagner.Id = 2;                   // Outra instancia
 			wagner.Nome = "waggi";
 			wagner.Endereço = "Rua B";
 			wagner.Cpf = "096905461";
 
 			Pessoa marcos = new Pessoa();
-			marcos.Id = 3;                   // 
+			marcos.Id = 3;                   //  Outra instancia
 			marcos.Nome = "marcci";
 			marcos.Endereço = "Rua C";
 			marcos.Cpf = "096905462";
 
-			var suzi = new Pessoa();  // usando o 'var' em vez de 'Pessoa' tb podemos. Chama se tipagem dinamica.
+			var suzi = new Pessoa();  // Outra instancia, usando o 'var' em vez de 'Pessoa' tb podemos. Chama se tipagem dinamica.
 			suzi.Id = 4;                   // 
 			suzi.Nome = "suazii";
 			suzi.Endereço = "Rua C";
