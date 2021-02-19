@@ -9,23 +9,21 @@ namespace Exercicio
     {
         static void Main(string[] args)
         {
-      
-            // Lista de objetos
+			Console.WriteLine("\n Caracteristicas de 3 diferentes Objectos\n");
+            // Lista de Objetos Gerais
             List<Object> objetos = new List<Object>();
 
 
-            // Inicio Carro
+            // INICIO CARRO 
+            // Lista Carro
             List<Carro> frota = new List<Carro>();
-            
+
             Carro veiculo = new Carro();
             veiculo.Marca = "Renault";
             veiculo.Modelo = "Clio 1.9D";
             veiculo.Cor = "Cinza";
             veiculo.Preco = 13000.00F;
             frota.Add(veiculo);
-
-            //  veiculo
-            objetos.Add(veiculo);
 
             veiculo = new Carro();
             veiculo.Marca = "Mercedes Benz";
@@ -34,9 +32,6 @@ namespace Exercicio
             veiculo.Preco = 24900.00F;
             frota.Add(veiculo);
 
-            // veiculo
-            objetos.Add(veiculo);
-
             veiculo = new Carro();
             veiculo.Marca = "Fiat";
             veiculo.Modelo = "Punto S";
@@ -44,31 +39,25 @@ namespace Exercicio
             veiculo.Preco = 9600.00F;
             frota.Add(veiculo);
 
-            // veiculo
-            objetos.Add(veiculo);
-
             veiculo = new Carro();
             frota.Add(veiculo);
 
-            // veiculo
-            objetos.Add(veiculo);
-
             foreach (Carro carro in frota)
                Console.WriteLine(carro.Mostrar());
-            // Fim Carro
+            // FIM OBJETO CARRO
 
+            Console.WriteLine("\n");
 
             // INCIO ANIMAL
+            //Lista Animal
             List<Animal> animais = new List<Animal>();
+
             var animal = new Animal();
             animal.Nome = "Abelha";
             animal.Especie = "Insecto";
             animal.Sexo = "M";
             animal.Idade = 1;
             animais.Add(animal);
-
-            // animal
-            objetos.Add(animal);
 
             animal = new Animal();
             animal.Nome = "Cao";
@@ -77,9 +66,6 @@ namespace Exercicio
             animal.Idade = 5;
             animais.Add(animal);
 
-            // animal
-            objetos.Add(animal);
-
             animal = new Animal();
             animal.Nome = "Egua";
             animal.Especie = "Mamifero";
@@ -87,48 +73,46 @@ namespace Exercicio
             animal.Idade = 7;
             animais.Add(animal);
 
-			// animal
-			objetos.Add(animal);
+            animal = new Animal();
+            animais.Add(animal);
 
-			foreach (Animal serAnimado in animais)
+            foreach (Animal serAnimado in animais)
 				Console.WriteLine(serAnimado.Mostrar());
-			// Fim Animal
+            // FIM ANIMAL
 
-			// Inicio Televisao
-			List<Televisao> aparelhos = new List<Televisao>();
+            Console.WriteLine("\n");
+
+            // INICIO TELEVISAO
+            // Lista Televisão
+            List<Televisao> aparelhos = new List<Televisao>();
+
             var aparelho = new Televisao();
             aparelho.Marca = "Philips";
             aparelho.Tamanho = "40'";
-            aparelho.Preco = 500.00;
             aparelho.Tipo = "Full HD";
+            aparelho.Preco = 500.00;
             aparelhos.Add(aparelho);
-
-            // aparelhos
-            objetos.Add(aparelhos);
 
             aparelho = new Televisao();
             aparelho.Marca = "Sony";
             aparelho.Tamanho = "45'";
-            aparelho.Preco = 600.00;
             aparelho.Tipo = "4K";
+            aparelho.Preco = 600.00;
             aparelhos.Add(aparelho);
-
-            // aparelhos
-            objetos.Add(aparelhos);
 
             aparelho = new Televisao();
             aparelho.Marca = "grundig";
             aparelho.Tamanho = "28'";
-            aparelho.Preco = 400.00;
             aparelho.Tipo = "UltraHD";
+            aparelho.Preco = 400.00;
             aparelhos.Add(aparelho);
 
-            //  aparelhos
-            objetos.Add(aparelhos);
+            aparelho = new Televisao();
+            aparelhos.Add(aparelho);
 
             foreach (Televisao tv in aparelhos)
                 Console.WriteLine(tv.Mostrar());
-            //Fim Televisao
+            //FIM TELEVISAO
 
             Console.ReadKey();
         }
