@@ -10,9 +10,6 @@ namespace Exercicio
         static void Main(string[] args)
         {
 			Console.WriteLine("\n Caracteristicas de 3 diferentes Objectos\n");
-            // Lista de Objetos Gerais
-            List<Object> objetos = new List<Object>();
-
 
             // INICIO CARRO 
             // Lista Carro
