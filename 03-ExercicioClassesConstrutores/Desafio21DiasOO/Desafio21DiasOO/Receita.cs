@@ -25,14 +25,14 @@ namespace Desafio21DiasOO
         // metodo Salvar
         public void Salvar(Receita receita)
         {
-			Console.WriteLine("Está salvo!");
+			//Console.WriteLine("Está salvo!");
+            List<Receita> lista = new List<Receita>();
+            lista.Add(receita);
         }
 
         // metodo Mostrar
         public void Mostrar()
-        {
-
-            
+        {      
         }
     }
 }
