@@ -1,0 +1,9 @@
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\bin\Debug\netcoreapp3.1\Exercicio_04.deps.json
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\bin\Debug\netcoreapp3.1\Exercicio_04.dll
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\bin\Debug\netcoreapp3.1\Exercicio_04.pdb
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\obj\Debug\netcoreapp3.1\Exercicio_04.csprojAssemblyReference.cache
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\obj\Debug\netcoreapp3.1\Exercicio_04.AssemblyInfoInputs.cache
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\obj\Debug\netcoreapp3.1\Exercicio_04.AssemblyInfo.cs
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\obj\Debug\netcoreapp3.1\Exercicio_04.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\obj\Debug\netcoreapp3.1\Exercicio_04.dll
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\04-PropriedadesPublicPrivate\Exercicio\Exercicio_04\obj\Debug\netcoreapp3.1\Exercicio_04.pdb
