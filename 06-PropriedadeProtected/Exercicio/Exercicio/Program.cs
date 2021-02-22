@@ -1,4 +1,4 @@
-﻿// 05. Propriedade Protected (continuação da Herança e Polimorfismo da aula anterior)
+﻿// 06. Propriedade Protected (continuação da Herança e Polimorfismo da aula anterior)
 
 using System;
 
