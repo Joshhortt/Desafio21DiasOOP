@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,11 +12,11 @@ namespace Exercicio
 
         protected string NomePersonalizadoProtected()
         {
-            return $"\nOla {Nome} eu sou o metodo Protected:\n";
+            return $"Ola metodo protected: {Nome}.";
         }
         public virtual string NomePersonalizadoVirtual()
         {
-            return $"\nOla {Nome} eu sou o Metodo Virtual:\n";
+            return $"Ola Metodo Virtual: {Nome}.";
         }
 
     }

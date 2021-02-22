@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Exercicio
 {
-    class Fisica : Pessoa
+    public class Fisica : Pessoa
     {
         public Fisica(string nome)
         {
@@ -13,28 +13,60 @@ namespace Exercicio
             this.Nome = this.NomePersonalizadoVirtual();
         }
 
-        //sobrescreve um metodo protected na herança - 'new' é considerado polimorfismo
+        public Fisica()
+        {
+        }
+
+        public string Cpf { get; set; }
+        public string Rg { get; set; }
+
+        //sobrescrevendo um metodo protected na herança
         public new string NomePersonalizadoProtected()
         {
-            return $"{base.NomePersonalizadoProtected()} --- sobrescrevendo meu nome --- \n";
+            return $"sobrescrevendo meu nome é {base.NomePersonalizadoProtected()}";
         }
 
-        //inclui outra assinatura para o metodo protected na heranca.
-        public string NomePersonalizadoProtected(string nome)
+        //incluindo mais uma assinatura para o metodo protected na heranca.
+        public string NomePersonalizadoProtected(string nomeP)
         {
-            return $"{base.NomePersonalizadoProtected()} {nome}\n";
+            return $"{base.NomePersonalizadoProtected()}sobrescrevendo meu nome é {nomeP}";
         }
-        
-        //sobrescreve o metodo virtual na herança com o override
+
+        //sobrescrevendo metodo virtual na herança
         public override string NomePersonalizadoVirtual()
         {
-            return $" {base.NomePersonalizadoVirtual()}\n";
+            return $"sobrescrevendo meu nome é {base.NomePersonalizadoVirtual()}";
         }
 
-        // inclui outra assinatura para o metodo virtual.
-        public string NomePersonalizadoVirtual(string nome)
+        //incluindo mais uma assinatura para o metodo virtual.
+        public string NomePersonalizadoVirtual(string nomeP)
         {
-            return $"{base.NomePersonalizadoVirtual()} --- sobrescrevendo meu nome outraves ---  {nome}";
+            return $"{base.NomePersonalizadoVirtual()}sobrescrevendo meu nome é {nomeP}";
+        }
+
+        public static List<Fisica> Base = new List<Fisica>();
+        public void Salvar()
+        {
+            Fisica.Base.Add(this);
+        }
+
+        public static List<Fisica> BuscaPorNome(string nome)
+        {
+            var novaLista = new List<Fisica>();
+            foreach (var instancia in Fisica.Base)
+            {
+                if (instancia.Nome.ToLower().Contains(nome.ToLower()))
+                {
+                    novaLista.Add(instancia);
+                }
+            }
+
+            return novaLista;
+        }
+
+        public static List<Fisica> Todas()
+        {
+            return Base;
         }
     }
 }
