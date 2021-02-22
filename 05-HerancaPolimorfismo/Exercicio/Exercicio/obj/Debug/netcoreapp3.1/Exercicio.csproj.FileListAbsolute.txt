@@ -1,0 +1,13 @@
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.exe
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.deps.json
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.runtimeconfig.json
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.runtimeconfig.dev.json
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.dll
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.pdb
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.csprojAssemblyReference.cache
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.AssemblyInfoInputs.cache
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.AssemblyInfo.cs
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.dll
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.pdb
+C:\Users\josec\Source\Repos\Desafio21DiasOOP\05-HerancaPolimorfismo\Exercicio\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.genruntimeconfig.cache
