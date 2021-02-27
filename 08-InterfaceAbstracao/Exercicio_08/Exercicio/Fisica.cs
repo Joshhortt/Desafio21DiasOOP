@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Exercicio
+namespace Exercicio_08
 {
-    public class Fisica : Pessoa // Fisica aparece como erro pq vou ter que fazer a implementação*.
+    public class Fisica : Pessoa 
     {
         public static List<Fisica> Base = new List<Fisica>();
         public Fisica(string nome)
@@ -17,7 +17,7 @@ namespace Exercicio
         {
         }
 
-        public override void Salvar()  // adicionei override
+        public override void Salvar()  
         {
             Fisica.Base.Add(this);
         }
@@ -74,15 +74,14 @@ namespace Exercicio
             return;
         }
 
-        // * Implementação dos metodos
-		public override void Buscar()
+		public override void Buscar(string nome)
 		{
-			throw new NotImplementedException();  // *Implementaçao com override gerado pelo Intellisense
+			throw new NotImplementedException();  
         }
 
 		public override void Excluir()
 		{
-			throw new NotImplementedException();  // *Implementaçao com override gerado pelo Intellisense
+			throw new NotImplementedException();  
         }
 	}
 }

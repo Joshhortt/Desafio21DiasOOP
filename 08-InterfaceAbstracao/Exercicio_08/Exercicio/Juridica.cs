@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Exercicio
+namespace Exercicio_08
 {
-    public class Juridica : Pessoa  // Juridica aparece como erro pq vou ter que fazer a implementação*.
+    public class Juridica : Pessoa  
     {
         public string Cnpj { get; set; }
         public string NomeFantasia { get; set; }
 
+
         public static List<Juridica> Base = new List<Juridica>();
-        public override void Salvar()  // adicionei override 
+        public override void Salvar()   
         {
             Juridica.Base.Add(this);
         }
@@ -28,15 +29,14 @@ namespace Exercicio
             return novaLista;
         }
 
-        // * Implementação dos metodos
-        public override void Buscar()
-		{
-			throw new NotImplementedException(); // *Implementaçao com override gerado pelo Intellisense
-        }
-
 		public override void Excluir()
 		{
-			throw new NotImplementedException();  // *Implementaçao com override gerado pelo Intellisense
+			throw new NotImplementedException();  
         }
+
+		public override void Buscar(string nome)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
