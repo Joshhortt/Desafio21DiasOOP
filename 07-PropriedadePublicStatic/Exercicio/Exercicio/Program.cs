@@ -17,10 +17,10 @@ namespace Exercicio
             System.Console.WriteLine(String.Format("{0} - {1} - {2} - {3}", fisica.Nome, fisica.Endereco, fisica.Cpf, fisica.Rg));
 
             var juridica = new Juridica();
-            juridica.Nome = "AMP SERVICOS";
+            juridica.Nome = "JOSH - Unipessoal Lda";
             juridica.Endereco = "Rua ABC, 5";
             juridica.Cnpj = "02.284.361/004-49";
-            juridica.NomeFantasia = "AMP SERV";
+            juridica.NomeFantasia = "JOSH - Unipessoal Lda";
 
             System.Console.WriteLine(String.Format("{0} - {1} - {2} - {3}", juridica.Nome, juridica.Endereco, juridica.Cnpj, juridica.NomeFantasia));
 
