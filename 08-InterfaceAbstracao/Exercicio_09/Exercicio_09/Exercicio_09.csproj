@@ -45,12 +45,19 @@
   <ItemGroup>
     <Compile Include="IPagamento.cs" />
     <Compile Include="Pagamento.cs" />
+    <Compile Include="PagamentoMultiBanco.cs" />
     <Compile Include="PagamentoViaCard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Exercicio_09a\Exercicio_09a.csproj">
+      <Project>{eee2d8cc-ac00-4219-a04a-74f82d1564a9}</Project>
+      <Name>Exercicio_09a</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

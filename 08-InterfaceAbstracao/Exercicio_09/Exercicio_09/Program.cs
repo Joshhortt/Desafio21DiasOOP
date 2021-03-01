@@ -1,4 +1,5 @@
 ﻿// Exercicio 09 TPC - Implementar Interface
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace Exercicio_09
 
 			var pagamento = new Pagamento();
 			var pagamentoViaCard = new PagamentoViaCard();
-		
+
 		}
 	}
 }

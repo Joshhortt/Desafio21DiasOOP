@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercicio_09
 {
-	public interface IPagamento // Interface é um contrato. só permite assinaturas. não permite metodos...
+	public interface IPagamento // só permite assinaturas. não permite metodos...
 	{
 		DateTime Vencimento { get; set; }
 
