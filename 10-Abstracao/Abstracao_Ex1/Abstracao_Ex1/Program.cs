@@ -1,4 +1,5 @@
-﻿using System;
+﻿// 10. Implementação simples de Abstração usando Herança.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
